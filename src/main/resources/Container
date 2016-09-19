@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "sc_management_group_view": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sc_automatic_startup": {
+      "type": "string"
+    },
+    "sc_installation_directory2": {
+      "type": "string"
+    },
+    "sc_management_group_execute": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tomcat-servers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sc_tomcat_server_max_java_thread_stack_size": {
+            "type": "string"
+          },
+          "sc_tomcat_server_ajp_port": {
+            "type": "string"
+          },
+          "sc_tomcat_server_ajp_redirect_port": {
+            "type": "string"
+          },
+          "sc_tomcat_server_logging_properties": {
+            "type": "string"
+          },
+          "sc_tomcat_server_max_java_heap_size": {
+            "type": "string"
+          },
+          "sc_tomcat_server_name": {
+            "type": "string"
+          },
+          "sc_tomcat_server_key_alias_pass_phrase_store_type": {
+            "type": "string"
+          },
+          "sc_tomcat_server_shutdown_key": {
+            "type": "string"
+          },
+          "sc_tomcat_server_key_store_file_pass_phrase_store_type": {
+            "type": "string"
+          },
+          "sc_tomcat_server_min_java_heap_size": {
+            "type": "string"
+          },
+          "sc_tomcat_server_max_java_perm_size": {
+            "type": "string"
+          },
+          "sc_tomcat_server_catalina_policy": {
+            "type": "string"
+          },
+          "sc_tomcat_server_ajp_protocol": {
+            "type": "string"
+          },
+          "sc_tomcat_server_catalina_properties": {
+            "type": "string"
+          },
+          "objectclass": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sc_category": {
+      "type": "string"
+    },
+    "sc_logs_owner": {
+      "type": "string"
+    },
+    "sc_version": {
+      "type": "string"
+    },
+    "sc_run_as": {
+      "type": "string"
+    },
+    "sc_state": {
+      "type": "string"
+    },
+    "sc_profile": {
+      "type": "string"
+    },
+    "sc_unix_owner": {
+      "type": "string"
+    },
+    "cluster_name": {
+      "type": "array",
+      "items": {}
+    },
+    "sc_comment": {
+      "type": "string"
+    },
+    "sc_interface_commands_group": {
+      "type": "string"
+    },
+    "sc_system_commands_group": {
+      "type": "string"
+    },
+    "sc_os": {
+      "type": "string"
+    },
+    "sc_subcategory": {
+      "type": "string"
+    },
+    "sc_installation_directory": {
+      "type": "string"
+    },
+    "sc_profile_group": {
+      "type": "string"
+    },
+    "sc_sort_profile": {
+      "type": "string"
+    },
+    "sc_type": {
+      "type": "string"
+    },
+    "sc_startup_order": {
+      "type": "string"
+    },
+    "sc_entity": {
+      "type": "string"
+    },
+    "sc_project": {
+      "type": "string"
+    },
+    "objectclass": {
+      "type": "string"
+    },
+    "sc_domain": {
+      "type": "string"
+    },
+    "sc_configuration_directory": {
+      "type": "string"
+    }
+  }
+}
